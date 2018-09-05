@@ -10,4 +10,4 @@ In addition to these the application also includes the approximate cost of the d
 
 Link for project proposal: 
 
-![] (https://github.com/SaitejaswiK/CS5551_team12_project/tree/master/Documentation)
+https://github.com/SaitejaswiK/CS5551_team12_project/tree/master/Documentation
