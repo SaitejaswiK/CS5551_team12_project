@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>About</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            Find Doctors
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list no-line>
+                <ion-item>
+                    <ion-input type="text" placeholder="Location" #location></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-input type="password" placeholder="Symptom" #symptom></ion-input>
+                </ion-item>
+                <button ion-button block outline color="primary" (click)="getDoctors()">Log in</button>
+            </ion-list>
+
+
+            <ion-list>
+                <ion-item *ngFor="let post of posts">
+                    <div>
+                        <b>{{post.practices[0].name}}</b>
+                        <br>
+                        <p>{{post.practices[0].website}}</p>
+                        <hr>
+                    </div>
+                </ion-item>
+            </ion-list>
+
+
+        </ion-card-content>
+    </ion-card>
+
+
+</ion-content>
