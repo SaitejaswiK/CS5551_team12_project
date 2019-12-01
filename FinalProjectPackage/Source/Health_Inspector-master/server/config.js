@@ -17,7 +17,7 @@ module.exports = {
   //   "mongodb://admin:admin@cluster0-shard-00-00-a31cp.mongodb.net:27017,cluster0-shard-00-01-a31cp.mongodb.net:27017,cluster0-shard-00-02-a31cp.mongodb.net:27017/complit?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
 
   //prod
-  dbURI:"mongodb://admin:admin@cluster0-shard-00-00-a31cp.mongodb.net:27017,cluster0-shard-00-01-a31cp.mongodb.net:27017,cluster0-shard-00-02-a31cp.mongodb.net:27017/healthcare?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
+  dbURI:"mongodb+srv://Saitejaswi_K:<password>@cluster0-qvm2n.mongodb.net/test?retryWrites=true&w=majority",
   
   serverKey: "AIzaSyDRCCr-L0X5YsHoYC3qpE1ZKQy5PCFDx7Y",
   //responses
